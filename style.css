@@ -3,15 +3,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap'); */
 
 /* body {
-    background-color: #fceed1;
+    /* font-family: 'Roboto', sans-serif; font-family: 'Barlow', sans-serif; 
+}*/
 
-    /* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Barlow', sans-serif; */
-/* font-family: Arial, Helvetica, sans-serif; */
-/* font-family: 'Times New Roman', Times, serif; */
-/* font-size: 16px; */
-/* font-weight: normal; */
-/* } */
+/* * {
+    padding: 0;
+    margin: 0;
+    ;
+} */
 
 /* Box Model */
 .body {
@@ -19,35 +18,42 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: normal;
-    max-width: 750px;
+    max-width: 800px;
     margin: auto;
     /* padding: 0px; */
 }
 
-.body .avatar {
+.body .card {
+    background-color: #fceed1;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.body .card .avatar {
     width: 150px;
-    border-radius: 12px;
+    border-radius: inherit;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
 }
 
-.body a {
+.body .card a {
     color: blue;
     text-decoration: none;
 }
 
-.body a:hover {
+.body .card a:hover {
     /* color: navy; */
     font-weight: bold;
     /* text-decoration: underline; */
 }
 
-.body a:active {
+.body .card a:active {
     /* color: navy; */
     font-weight: normal;
     /* text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 255, 1); */
 }
 
-.body .jobTitle h2 {
+.body .card .jobTitle h2 {
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -55,7 +61,7 @@
 }
 
 .body .card h3 {
-    padding: 0px;
+    padding-bottom: 10px;
     margin: 0px;
     text-transform: uppercase;
 }
@@ -67,18 +73,50 @@
     text-align: center;
 }
 
-.body .card {
-    background-color: #fceed1;
-    padding: 10px 10px;
-    margin-bottom: 8px;
-    border-radius: 12px;
+.body .card .tSkills {
+    width: 100%;
+    text-align: left;
 }
 
-/* .about {
-    background: blue;
-} */
+.body .card .tSkills td:nth-child(1) {
+    font-weight: bold;
+}
 
-/* .social {
-    background: lightskyblue;
-    padding: 5px;
-} */
+.body .card .tSkills td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.body .card .tExperience {
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.body .card .tExperience td:nth-child(1) {
+    text-align: left;
+}
+
+.body .card .tExperience td:nth-child(2) {
+    text-align: right;
+}
+
+.body .card .tEducation {
+    width: 100%;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+}
+
+.body .card .tEducation td:nth-child(1) {
+    text-align: left;
+}
+
+.body .card .tEducation td:nth-child(2) {
+    text-align: right;
+}
+
+.body .card ul {
+    margin-top: 0px;
+    text-align: justify;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+}
