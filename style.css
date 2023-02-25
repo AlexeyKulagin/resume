@@ -21,6 +21,7 @@
     font-weight: normal;
     max-width: 750px;
     margin: auto;
+    /* padding: 0px; */
 }
 
 .body .avatar {
@@ -34,32 +35,42 @@
     text-decoration: none;
 }
 
-a:hover {
+.body a:hover {
     /* color: navy; */
     font-weight: bold;
     /* text-decoration: underline; */
 }
 
-a:active {
+.body a:active {
     /* color: navy; */
     font-weight: normal;
     /* text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 255, 1); */
 }
 
-.body h2 {
+.body .jobTitle h2 {
     text-align: center;
+    padding: 0px;
+    margin: 0px;
+
 }
 
-.body h3 {
+.body .card h3 {
     padding: 0px;
     margin: 0px;
     text-transform: uppercase;
 }
 
-.card {
+.body .card h4 {
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.body .card {
     background-color: #fceed1;
     padding: 10px 10px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     border-radius: 12px;
 }
 
