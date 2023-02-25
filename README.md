@@ -1,4 +1,4 @@
-# resume
+# Resume project
 This is my Resume project dedicated to:
 1. Learn HTML/CSS/JavaScript Web technology;
 2. Share my Resume to the World
