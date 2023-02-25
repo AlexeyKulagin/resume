@@ -1,3 +1,122 @@
-body {
-    background-color: burlywood;
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap'); */
+
+/* body {
+    /* font-family: 'Roboto', sans-serif; font-family: 'Barlow', sans-serif; 
+}*/
+
+/* * {
+    padding: 0;
+    margin: 0;
+    ;
+} */
+
+/* Box Model */
+.body {
+    /* background-color: #fceed1; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 800px;
+    margin: auto;
+    /* padding: 0px; */
+}
+
+.body .card {
+    background-color: #fceed1;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.body .card .avatar {
+    width: 150px;
+    border-radius: inherit;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.body .card a {
+    color: blue;
+    text-decoration: none;
+}
+
+.body .card a:hover {
+    /* color: navy; */
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+.body .card a:active {
+    /* color: navy; */
+    font-weight: normal;
+    /* text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 255, 1); */
+}
+
+.body .card .jobTitle h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.body .card h3 {
+    padding-bottom: 10px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.body .card h4 {
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.body .card .tSkills {
+    width: 100%;
+    text-align: left;
+}
+
+.body .card .tSkills td:nth-child(1) {
+    font-weight: bold;
+}
+
+.body .card .tSkills td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.body .card .tExperience {
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.body .card .tExperience td:nth-child(1) {
+    text-align: left;
+}
+
+.body .card .tExperience td:nth-child(2) {
+    text-align: right;
+}
+
+.body .card .tEducation {
+    width: 100%;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+}
+
+.body .card .tEducation td:nth-child(1) {
+    text-align: left;
+}
+
+.body .card .tEducation td:nth-child(2) {
+    text-align: right;
+}
+
+.body .card ul {
+    margin-top: 0px;
+    text-align: justify;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
 }
