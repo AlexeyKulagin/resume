@@ -26,7 +26,7 @@
     padding-left: 40px;
 }
 
-@media (max-width: 240px) {
+@media (max-width: 480px) {
 
     .info,
     .about {
