@@ -23,7 +23,7 @@
 }
 
 .about {
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 @media (max-width: 480px) {
@@ -44,7 +44,8 @@
 }
 
 .card {
-    background-color: #fceed1;
+    /* background-color: #fceed1; */
+    background-color: rgb(251, 240, 220);
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 8px;
@@ -110,7 +111,7 @@ h4 {
 
 .tExperience {
     width: 100%;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bold;
 }
 
