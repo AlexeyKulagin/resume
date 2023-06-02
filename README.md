@@ -14,5 +14,5 @@ This is my Resume project dedicated to:
 
 ## Software QA (Web testing)
 
-- PASSED: Buils acceptance on: Desktop Chrome and Safary browsers on macOS 13.2.1 platform (MacBookPro);
+- PASSED: Build acceptance on: Desktop Chrome and Safary browsers on macOS 13.2.1 platform (MacBookPro);
 - PASSED: Build acceptance on: Mobile Chrome and Safary browsers on iOS 16.3.1 platform (iPhone 14 ProMax, 12 mini)
