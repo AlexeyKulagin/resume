@@ -139,6 +139,10 @@ ul {
     text-align: justify;
 }
 
+.summary ul li span {
+    font-weight: bold;
+}
+
 .summary>ul>li:last-child {
     font-weight: bold;
 }
